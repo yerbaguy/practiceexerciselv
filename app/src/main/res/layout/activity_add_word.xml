@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.bartoszmaliszewski.practiceexerciselv.AddWordActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editTextEngWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="31dp"/>
+
+    <EditText
+        android:id="@+id/editTextPlWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="98dp"/>
+
+    <Button
+        android:id="@+id/btnAddWords"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:onClick="addWord"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="165dp"/>
+
+    <TextView
+        android:id="@+id/textViewPracticeExercise"
+        android:layout_width="120dp"
+        android:layout_height="21dp"
+        android:text="Practice Exercise"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="230dp"/>
+
+    <TextView
+        android:id="@+id/textViewEngWord"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textViewPlWord"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+</LinearLayout>

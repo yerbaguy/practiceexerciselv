@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bartoszmaliszewski.practiceexerciselv.WordListActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textViewPracticeExercise"
+        android:layout_width="113dp"
+        android:layout_height="19dp"
+        android:text="Practice Exercise"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="439dp"/>
+
+</android.support.constraint.ConstraintLayout>
